@@ -7,11 +7,14 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'high_voltage'
+
 group :doc do
   gem 'sdoc', require: false
 end
 
 group :test, :development do
   gem 'rspec-rails'
+  gem 'capybara'
 end
 
